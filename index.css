@@ -1,0 +1,39 @@
+body, html {
+	font-family: sans-serif;
+}
+
+.main {
+	width: 500px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+}
+
+.button {
+	width: 100px;
+	height: 100px;
+	display: block;
+	background-color: #eee;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+	border: 5px solid white;
+}
+
+.player-x {
+	background: #390;
+}
+
+.player-o {
+	background: #930;
+}
+
+.turn {
+	clear: both;
+	border: 2px solid white;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+}
